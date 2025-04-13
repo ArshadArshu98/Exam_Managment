@@ -1,0 +1,519 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\implementations\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\implementations\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\dtos\\exammarkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\dtos\\exammarkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\dtos\\subjectmarkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\dtos\\subjectmarkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\interfaces\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\interfaces\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\interfaces\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\iexamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\implementations\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\implementations\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\implementations\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\interfaces\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\extensions\\automapperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\extensions\\automapperextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\mapping\\subjectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\mapping\\subjectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\mapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\mapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|d:\\2025\\projects\\exam_management\\exam_management\\services\\interfaces\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AE9050-33C1-4C2F-9507-039087D16BC8}|Services\\Services.csproj|solutionrelative:services\\interfaces\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\dtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\responses\\commonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\responses\\commonresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|d:\\2025\\projects\\exam_management\\exam_management\\repositories\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D727810-3B0F-4BD9-B04B-A52788F218AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|d:\\2025\\projects\\exam_management\\exam_management\\exam_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83461516-D477-4510-B74E-9DA68322C31B}|Exam_Management\\Exam_Management.csproj|solutionrelative:exam_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|d:\\2025\\projects\\exam_management\\exam_management\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B704B-69EA-48BD-9E3D-AC834681DBD4}|Models\\Models.csproj|solutionrelative:models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ExamRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\ExamRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ExamRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwE4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T16:44:08.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Exam_Management\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:22:28.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\ExamService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ExamService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\ExamService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ExamService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:56:21.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IExamRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\IExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IExamRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\IExamRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IExamRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T16:44:51.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IExamService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\IExamService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IExamService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\IExamService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IExamService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:56:07.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Exam_Management\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAnwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:18:07.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExamMarkDto.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\ExamMarkDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ExamMarkDto.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\ExamMarkDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\ExamMarkDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:35:08.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubjectMarkDto.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\SubjectMarkDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\SubjectMarkDto.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\SubjectMarkDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\SubjectMarkDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:39:43.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Controllers\\ExamController.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "Exam_Management\\Controllers\\ExamController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:33:19.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\SubjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\SubjectService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\SubjectService.cs",
+              "RelativeToolTip": "Services\\Implementations\\SubjectService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:36:14.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\StudentService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "Services\\Implementations\\StudentService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:32:29.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Exam_Management\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:14:40.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IStudentService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:32:01.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\SubjectRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\SubjectRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\SubjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:46:42.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AutoMapperExtension.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Extensions\\AutoMapperExtension.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Extensions\\AutoMapperExtension.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Extensions\\AutoMapperExtension.cs",
+              "RelativeToolTip": "Exam_Management\\Extensions\\AutoMapperExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:29:29.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StudentProfile.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Mapping\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "Models\\Mapping\\StudentProfile.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Mapping\\StudentProfile.cs",
+              "RelativeToolTip": "Models\\Mapping\\StudentProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:25:11.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Repositories\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADgvxkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:42:44.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "Exam_Management\\Controllers\\SubjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:33:09.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ISubjectRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\ISubjectRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ISubjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:48:12.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentDto.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\StudentDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\StudentDto.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\StudentDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\StudentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:24:49.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ISubjectService.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Services\\Interfaces\\ISubjectService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ISubjectService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:36:59.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Entities\\Subject.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Subject.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Entities\\Subject.cs",
+              "RelativeToolTip": "Models\\Entities\\Subject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:39:18.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SubjectProfile.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Mapping\\SubjectProfile.cs",
+              "RelativeDocumentMoniker": "Models\\Mapping\\SubjectProfile.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Mapping\\SubjectProfile.cs",
+              "RelativeToolTip": "Models\\Mapping\\SubjectProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:51:36.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubjectDto.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\SubjectDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\SubjectDto.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\DTOs\\SubjectDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\SubjectDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:42:24.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:36:51.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CommonResponse.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Responses\\CommonResponse.cs",
+              "RelativeDocumentMoniker": "Models\\Responses\\CommonResponse.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Responses\\CommonResponse.cs",
+              "RelativeToolTip": "Models\\Responses\\CommonResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:19:16.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\StudentRepository.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Repositories\\Implementations\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\StudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:37:21.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\appsettings.json",
+              "RelativeDocumentMoniker": "Exam_Management\\appsettings.json",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\appsettings.json",
+              "RelativeToolTip": "Exam_Management\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-13T11:04:45.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Student.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Models\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:29:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Program.cs",
+              "RelativeDocumentMoniker": "Exam_Management\\Program.cs",
+              "ToolTip": "D:\\2025\\Projects\\Exam_Management\\Exam_Management\\Exam_Management\\Program.cs",
+              "RelativeToolTip": "Exam_Management\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T10:20:38.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

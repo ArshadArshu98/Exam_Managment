@@ -1,0 +1,12 @@
+D:\2025\Projects\Exam_Management\Exam_Management\Models\bin\Debug\net8.0\Models.deps.json
+D:\2025\Projects\Exam_Management\Exam_Management\Models\bin\Debug\net8.0\Models.dll
+D:\2025\Projects\Exam_Management\Exam_Management\Models\bin\Debug\net8.0\Models.pdb
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.dll
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\refint\Models.dll
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.pdb
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\ref\Models.dll
+D:\2025\Projects\Exam_Management\Exam_Management\Models\obj\Debug\net8.0\Models.csproj.AssemblyReference.cache
