@@ -13,7 +13,7 @@ namespace Services.Interfaces
     {
 
         Task<CommonResponse<List<StudentDto>>> GetAllAsync();
-        Task<CommonResponse<string>> AddOrUpdateAsync(StudentDto studentDto);
+        Task<CommonResponse<StudentDto>> AddOrUpdateAsync(StudentDto studentDto);
 
     }
 }

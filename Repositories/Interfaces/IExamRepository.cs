@@ -12,7 +12,7 @@ namespace Repositories.Interfaces
     public interface IExamRepository
     {
         Task<List<ExamMarkDto>> GetMarks(int studentID);
-        Task<int> SaveStudentExamAsync(ExamMarkDto examDto);
+        Task<int> SaveStudentExamAsync(SaveExamMarkDto examDto);
         Task<bool> CheckExamResultExist(int studentId, int year);
 
     }

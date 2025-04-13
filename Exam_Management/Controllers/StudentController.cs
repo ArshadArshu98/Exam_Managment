@@ -16,7 +16,7 @@ namespace Exam_Management.Controllers
             _service = service;
         }
         [HttpPost("ManageStudent")]
-        public async Task<CommonResponse<string>> AddOrUpdate([FromBody] StudentDto student)
+        public async Task<CommonResponse<StudentDto>> AddOrUpdate([FromBody] StudentDto student)
         {           
             var response = await _service.AddOrUpdateAsync(student);
             return response;

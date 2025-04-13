@@ -11,6 +11,6 @@ namespace Services.Interfaces
     public interface IExamService
     {
         Task<CommonResponse<List<ExamMarkDto>>> GetMarks(int studentID);
-        Task<CommonResponse<string>> SaveStudentExamAsync(ExamMarkDto studentDto);
+        Task<CommonResponse<string>> SaveStudentExamAsync(SaveExamMarkDto studentDto);
     }
 }

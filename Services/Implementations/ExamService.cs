@@ -30,7 +30,7 @@ namespace Services.Implementations
 
         }
 
-        public async Task<CommonResponse<string>> SaveStudentExamAsync(ExamMarkDto examDto)
+        public async Task<CommonResponse<string>> SaveStudentExamAsync(SaveExamMarkDto examDto)
         {
             try
             {

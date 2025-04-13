@@ -18,7 +18,7 @@ namespace Services.Implementations
             _mapper = mapper;
         }
 
-        public async Task<CommonResponse<string>> AddOrUpdateAsync(StudentDto studentDto)
+        public async Task<CommonResponse<StudentDto>> AddOrUpdateAsync(StudentDto studentDto)
         {
             try
             {
@@ -30,19 +30,19 @@ namespace Services.Implementations
                     var result = await _repository.AddOrUpdateAsync(student);
 
                     if (result > 0)
-                        return CommonResponse<string>.Ok("Record updated successfully.");
+                        return CommonResponse<StudentDto>.Ok(null,"Record updated successfully.");
                     else
-                        return CommonResponse<string>.Fail("No changes made to student record.");
+                        return CommonResponse<StudentDto>.Fail("No changes made to student record.");
                 }
                 else
                 {
-                    return CommonResponse<string>.Fail("Email already exist.");
+                    return CommonResponse<StudentDto>.Fail("Email already exist.");
                 }
 
             }
             catch (Exception ex)
             {
-                return CommonResponse<string>.Fail($"An error occurred: {ex.Message}");
+                return CommonResponse<StudentDto>.Fail($"An error occurred: {ex.Message}");
             }
         }
 

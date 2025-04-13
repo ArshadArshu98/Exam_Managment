@@ -10,6 +10,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Repositories.Implementations
 {
@@ -24,12 +25,11 @@ namespace Repositories.Implementations
 
         public async Task<List<ExamMarkDto>> GetMarks(int studentID)
         {
-
+            var connection = _context.Database.GetDbConnection();
             try
             {
                 var results = new Dictionary<int, ExamMarkDto>();
 
-                var connection = _context.Database.GetDbConnection();
                 if (connection.State != ConnectionState.Open)
                     await connection.OpenAsync();
 
@@ -76,13 +76,18 @@ namespace Repositories.Implementations
                 throw new Exception("Error while fetching student exam result.", ex);
 
             }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                    await connection.CloseAsync();
+            }
         }
-
-        public async Task<int> SaveStudentExamAsync(ExamMarkDto dto)
+        public async Task<int> SaveStudentExamAsync(SaveExamMarkDto dto)
         {
+            var connection = _context.Database.GetDbConnection();
+
             try
             {
-                var connection = _context.Database.GetDbConnection();
 
                 if (connection.State != ConnectionState.Open)
                     await connection.OpenAsync();
@@ -114,13 +119,18 @@ namespace Repositories.Implementations
             {
                 throw new Exception("Error saving student exam result.", ex);
             }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                    await connection.CloseAsync();
+            }
         }
         public async Task<bool> CheckExamResultExist(int studentId, int examYear)
         {
+            var connection = _context.Database.GetDbConnection();
+
             try
             {
-                var connection = _context.Database.GetDbConnection();
-
                 if (connection.State != ConnectionState.Open)
                     await connection.OpenAsync();
 
@@ -145,9 +155,13 @@ namespace Repositories.Implementations
                 throw new Exception("Error executing CheckExamResultExist.", ex);
 
             }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                    await connection.CloseAsync();
+            }
             return false;
         }
-
         private DataTable CreateExamDetailDataTable(List<SubjectMarkDto> marks)
         {
             var table = new DataTable();

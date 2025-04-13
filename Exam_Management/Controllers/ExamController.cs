@@ -19,7 +19,7 @@ namespace Exam_Management.Controllers
 
 
         [HttpPost("SaveMarks")]
-        public async Task<CommonResponse<string>> SaveStudentExam([FromBody] ExamMarkDto dto)
+        public async Task<CommonResponse<string>> SaveStudentExam([FromBody] SaveExamMarkDto dto)
         {
 
             var response = await _service.SaveStudentExamAsync(dto);
